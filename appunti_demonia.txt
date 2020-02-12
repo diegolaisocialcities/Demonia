@@ -1,0 +1,24 @@
+idee : gioco gestionale schermata dinamica con roguelike
+Citta : edifici
+Risorse : fattoria / cibo 
+, falegname / legna 
+, fabbro /armi armature ,
+ castello / tasse ,
+ casa / cittadini ,
+ pozzo / acqua ,
+ mura /difesa , erboristeria / medicina , 
+chiesa / religione ,
+ catacombe / delinquenza ,
+ cimitero /morti ,
+ casa delllo sciamano /contrario religione,
+ torre del mago /  magia
+tribunale / legge ,
+ mercato /commercio ,
+ caserma / soldati , 
+giardini / belllezza ,
+ distilleria / alchol ,
+ muratori / livello edifici per costruire ,
+ fucina / ferro , minerali raffinati ,
+ / minerali grezzi ,
+ campo     
+sovrano che cambia per ogni run 

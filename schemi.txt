@@ -1,0 +1,24 @@
+Risorse:
+
+fattoria / cibo OK CIBO
+falegname / legna LEGNA
+castello / tasse ORO
+Cava / Pietra
+casa / cittadini OK POPOLAZIONE
+fucina / ferro , minerali raffinati FERRO 
+
+fabbro /armi armature
+pozzo / acqua
+mura /difesa
+erboristeria / medicina
+chiesa / religione
+ catacombe / delinquenza
+cimitero /morti
+casa delllo sciamano /contrario religione
+torre del mago / magia
+tribunale / legge
+mercato /commercio (Risorse)
+caserma / soldati
+giardini / bellezza
+distilleria / alchol
+muratori / livello edifici per costruire

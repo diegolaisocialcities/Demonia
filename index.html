@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Demonia</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"><link rel="stylesheet" href="css/resScript.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <table class="table">
+                    <thead>
+                        <th scope="col">Wood <img class="resources_imgs" src="imgs/resources/wood.jpg" alt="wood"></th>
+                        <th scope="col">Food <img class="resources_imgs" src="imgs/resources/food.jpg" alt="food"></th>
+                        <th scope="col">Gold <img class="resources_imgs" src="imgs/resources/gold.jpg" alt="gold"></th>
+                        <th scope="col">Stone <img class="resources_imgs" src="imgs/resources/stone.jpg" alt="stone"></th>
+                        <th scope="col">Iron <img class="resources_imgs" src="imgs/resources/iron.jpg" alt="iron"></th>
+                        <th scope="col">Population <img class="resources_imgs" src="imgs/resources/population.jpg" alt="population"></th>
+                        <th scope="col">Faith <img class="resources_imgs" src="imgs/resources/religion.png" alt="wood"></th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="wood_Res">20</td>
+                            <td id="food_Res">100</td>
+                            <td id="gold_Res">200</td>
+                            <td id="stone_Res">10</td>
+                            <td id="iron_Res">0</td>
+                            <td id="pop_Res">5</td>
+                            <td id="rel_Res">2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="row"><div class="col-md-12 text-center">
+                <span>
+                    <p class="actions"><b>Actions:</b> 4</p>
+                    <hr>
+                    <p class="day"><b>Day:</b> 0</p>
+                </span>
+                </div>
+            </div>
+            <div class="row"><div class="col-md-12 text-center"><h2>TRADE</h2></div></div>
+            <div class="row">
+
+                <div class="col-md-3 text-center">    
+                    <button type="button" name="button" id="buy_Wood">Buy Wood (20) - 10 Gold</button>
+                </div>
+                <div class="col-md-3 text-center">    
+                    <button type="button" name="button" id="buy_Food">Buy Food (15) - 10 Gold</button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <button type="button" name="button" id="buy_Stone">Buy Stone (10) - 20 Gold</button>
+                </div>
+                <div class="col-md-3 text-center">    
+                    <button type="button" name="button" id="free_gold">Gain Gold (1000) DEVS ONLY</button>
+                </div>
+            </div>
+            <div class="row"><div class="col-md-12 text-center"><h2>RESOURCES BUILDINGS</h2></div></div>
+            <div class="row">
+                <div class="card col-ms-2" style="width: 18rem;">
+                    <img src="imgs/buildings/farms.jpg" class="card-img-top" alt="houses">
+                    <div class="card-body">
+                        <h5 class="card-title">Farms</h5>
+                        <p class="card-text" id="farms_level"><b>Level: 1</b></p>
+                        <p class="card-text">They produce food daily.</p>
+                        <button class="btn btn-primary text-centered" id="update_farms">UPDATE - 150 <img class="resources_imgs" src="imgs/resources/wood.jpg" alt="wood"></button>
+                    </div>  
+                </div>
+                <div class="card col-ms-2" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Woodcutter</h5>
+                        <p class="card-text" id="woodcutter_level"><b>Level: 1</b></p>
+                        <p class="card-text">Produces wood daily.</p>
+                        <button class="btn btn-primary text-centered" id="update_woodcutter">UPDATE - 150 <img class="resources_imgs" src="imgs/resources/food.jpg" alt="food"> 50 <img class="resources_imgs" src="imgs/resources/stone.jpg" alt="stone"></button>
+                    </div>
+                </div>
+                <div class="card col-ms-2" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Stone mine</h5>
+                        <p class="card-text" id="stone_mine_level"><b>Level: 1</b></p>
+                        <p class="card-text">Produces stone daily.</p>
+                        <button class="btn btn-primary" id="update_stone_mine">Update - 300 <img class="resources_imgs" src="imgs/resources/wood.jpg" alt="wood"></button>
+                    </div>
+                </div>
+                 <div class="card col-ms-2" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Iron mine</h5>
+                        <p class="card-text" id="iron_mine_level"><b>Level: 1</b></p>
+                        <p class="card-text">Produces iron daily.</p>
+                        <button class="btn btn-primary" id="update_iron_mine">Update - 350 <img class="resources_imgs" src="imgs/resources/wood.jpg" alt="wood"></button>
+                    </div>
+                </div>
+                 <div class="card col-ms-2" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Castle</h5>
+                        <p class="card-text" id="castle_level"><b>Level: 1</b></p>
+                        <p class="card-text">Produces gold daily.</p>
+                        <button class="btn btn-primary" id="update_castle" >Update - 500 <img class="resources_imgs" src="imgs/resources/wood.jpg" alt="wood"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row"><div class="col-md-12 text-center"><h2>TOWN BUILDINGS</h2></div></div>
+            <div class="row">
+                <div class="card col-ms" style="width: 18rem;">
+                    <img src="imgs/buildings/houses.jpg" class="card-img-top" alt="houses">
+                    <div class="card-body">
+                        <h5 class="card-title">Houses</h5>
+                        <p class="card-text" id="house_level"><b>Level: 1</b></p>
+                        <p class="card-text">Your villagers' houses.</p>
+                        <button class="btn btn-primary" id="update_house">Update Houses - 50 Wood</button>
+                    </div>
+                </div>
+                <div class="card col-ms" style="width: 18rem;">
+                    <img src="imgs/buildings/blacksmith.jpg" class="card-img-top" alt="blacksmith">
+                    <div class="card-body">
+                        <h5 class="card-title">Blacksmith <br> (COMING SOON)</h5>
+                        <p class="card-text" id="blacksmith_level"><b>Level: 1</b></p>
+                        <p class="card-text">An old man with an hammer and his huge skill.</p>
+                        <button class="btn btn-primary" id="update_blacksmith" disabled>Update Blacksmith - 50 Wood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feedback"></div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+                ></script>
+        <script type="text/javascript" src="js/resScript.js"></script>
+        <script type="text/javascript" src="js/trials.js"></script>
+    </body>
+</html>
